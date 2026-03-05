@@ -1,0 +1,204 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+# But allow frontend/lib/ (TypeScript source files)
+!frontend/lib/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+*.pyo
+*.pyd
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+.env/
+
+# Python testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+test-results/
+coverage/
+nosetests.xml
+coverage.xml
+
+# Python type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# Node.js / Next.js
+# ============================================
+node_modules/
+/.pnp
+.pnp.js
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+.npm
+.npm-cache/
+npm-cache/
+.eslintcache
+.yarn/
+yarn-error.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js specific
+.vercel
+.vercel.json
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ============================================
+# Model Files (Large binary files - DO NOT COMMIT)
+# ============================================
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+*.model
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+# Keep the models directory structure
+!backend/models/.gitkeep
+
+# ============================================
+# Docker
+# ============================================
+docker-compose.override.yml
+*.dockerfile.local
+
+# ============================================
+# Logs
+# ============================================
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+backend.log
+frontend.log
+
+# ============================================
+# IDE / Editors
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+.cache/
+
+# ============================================
+# Build Artifacts
+# ============================================
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.bin
+*.dylib
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ============================================
+# TypeScript
+# ============================================
+*.tsbuildinfo
+
+# ============================================
+# Project Specific
+# ============================================
+# Application logs
+backend.log
+frontend.log
+
+# Model files (explicitly ignore)
+# *.pkl
+#*.pickle

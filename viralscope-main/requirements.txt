@@ -1,0 +1,19 @@
+# Core Data Manipulation
+pandas
+numpy
+
+# Data Compression & Serialization
+zstandard
+pyarrow
+
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Additional standard library dependencies (typically pre-installed with Python)
+# - pickle (for model serialization)
+# - warnings (for filtering warnings)
+# - os, time, datetime, io, json, random, logging (standard library)

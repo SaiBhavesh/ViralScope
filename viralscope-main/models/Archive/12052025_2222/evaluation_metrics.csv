@@ -1,0 +1,16 @@
+model,accuracy,precision,recall,f1_score,roc_auc
+RandomForest,0.739211618,0.632843792,0.325549451,0.429931973,0.755978378
+KNN,0.703112033,0.512437811,0.353708791,0.418529053,0.69016773
+LinearSVC,0.713485477,0.56660746,0.219093407,0.315998019,0.692050852
+MLP,0.715145228,0.584867076,0.196428571,0.294087404,0.682350432
+DecisionTree,0.711410788,0.570498915,0.180631868,0.274387063,0.669822115
+,,,,,
+Configuration Parameters,,,,,
+parameter,value,,,,
+random_sampling_ratio,0.1,,,,
+random_sampling_max_lines,,,,,
+random_sampling_min_views_per_day,10000,,,,
+preparation_sample_size,250000,,,,
+success_percentile,70,,,,
+test_size,0.2,,,,
+random_state,42,,,,

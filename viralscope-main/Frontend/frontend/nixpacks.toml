@@ -1,0 +1,13 @@
+[phases.setup]
+nixPkgs = ["nodejs-18_x", "npm"]
+
+[phases.install]
+cmds = ["npm install"]
+
+[phases.build]
+cmds = ["npm run build"]
+# NEXT_PUBLIC_BACKEND_URL will be available from Railway environment variables
+
+[start]
+cmd = "npm start"
+

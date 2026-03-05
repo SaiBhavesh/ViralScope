@@ -1,0 +1,30 @@
+Best Hyperparameters from GridSearchCV
+======================================================================
+
+RandomForest:
+  class_weight: None
+  max_depth: 10
+  min_samples_leaf: 3
+  n_estimators: 300
+
+DecisionTree:
+  class_weight: None
+  criterion: gini
+  max_depth: 10
+  min_samples_leaf: 3
+
+LinearSVC:
+  C: 0.1
+  class_weight: None
+  max_iter: 1000
+
+KNN:
+  n_neighbors: 9
+  p: 2
+
+MLP:
+  activation: relu
+  hidden_layer_sizes: (256, 128, 32)
+  learning_rate_init: 0.05
+  max_iter: 200
+
